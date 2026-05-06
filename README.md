@@ -14,15 +14,31 @@ The purpose of this repository is to provide a clear overview of my programming 
 
 ## Repository Structure
 
-- `01_machine_learning_projects/`
-- `02_flower_similarity/`
+- `01_flower_similarity/`
+- `02_machine_learning_projects/`
 - `03_age_detection/`
 - `admission_assignments/`
 - `README.md`
 
 ## Selected Projects
 
-### 1. Machine Learning Projects
+### 1. Flower Similarity
+
+This folder contains a computer vision project focused on measuring similarity between flower images.
+
+The project demonstrates:
+
+- Image preprocessing
+- Pair-based image comparison
+- Deep learning for visual similarity
+- Use of convolutional neural network architectures
+- Model training and evaluation
+- Visualization of image-based results
+
+This project is included because it is directly related to computer vision and image analysis.
+
+
+### 2. Machine Learning Projects
 
 This folder contains selected machine learning projects demonstrating end-to-end data science workflows, including:
 
@@ -37,20 +53,6 @@ This folder contains selected machine learning projects demonstrating end-to-end
 
 This project is included to show my general data science and machine learning background.
 
-### 2. Flower Similarity
-
-This folder contains a computer vision project focused on measuring similarity between flower images.
-
-The project demonstrates:
-
-- Image preprocessing
-- Pair-based image comparison
-- Deep learning for visual similarity
-- Use of convolutional neural network architectures
-- Model training and evaluation
-- Visualization of image-based results
-
-This project is included because it is directly related to computer vision and image analysis.
 
 ### 3. Age Detection
 
@@ -84,8 +86,6 @@ Across the projects in this repository, the following skills are demonstrated:
 - Use of scientific Python libraries
 - Clear code organization and documentation
 
-## Notes for Reviewers
 
-The projects included in this repository were selected to provide representative examples of my programming and analytical background. Some projects were originally developed as academic or independent learning projects and have been organized here to make the review process easier.
 
 For each folder, I have included or will include a short description explaining the goal of the project, the main methods used, and the files recommended for review.
