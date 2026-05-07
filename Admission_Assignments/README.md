@@ -189,17 +189,6 @@ For example, if `batch_size=64`, the final batch may contain fewer than 64 real 
 
 This causes a shape mismatch error during loss calculation.
 
-There is also a small cosmetic issue in the plot title:
-
-```text
-Generate images
-```
-
-A better title would be:
-
-```text
-Generated images
-```
 
 There is also a typo in the documentation: `Generater` should be `Generator`.
 
@@ -221,28 +210,4 @@ latent_space_samples = torch.randn((current_batch_size, 100)).to(device=device)
 
 This ensures that the labels and model outputs have matching shapes, even when the final batch is smaller.
 
-The cosmetic issue can be fixed by changing the title from:
 
-```text
-Generate images
-```
-
-to:
-
-```text
-Generated images
-```
-
----
-
-## Summary
-
-The main issues in these exercises were caused by incorrect assumptions:
-
-- assuming a `set` has a stable order
-- assigning the wrong NumPy columns during a swap
-- reading CSV values as numbers when they are actually strings
-- plotting columns in the wrong order
-- assuming every PyTorch batch has the same size
-
-The fixes involved choosing the correct data structure, copying arrays before modifying them, converting data to the right type, checking column order, and using the actual batch size during training.
