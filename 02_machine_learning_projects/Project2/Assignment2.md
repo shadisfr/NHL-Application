@@ -3,8 +3,7 @@
 
 ### **Objective**
 
-Perform a **binary classification task** using the **Spaceship Titanic dataset**.
-You must apply your knowledge of data exploration, cleaning, modeling, and evaluation.
+Performed a **binary classification task** using the **Spaceship Titanic dataset**.
 
 ---
 
