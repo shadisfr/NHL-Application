@@ -1,7 +1,6 @@
 # Click-Through Rate (CTR) Prediction Assignment
 
 Click-Through Rate (CTR) prediction is a fundamental problem in **online advertising**, directly influencing both **platform revenue** and the effectiveness of **marketing campaigns**.
-In this assignment, you will analyze user interaction data to predict whether a user will **click on an online advertisement**.
 
 ---
 
