@@ -2,7 +2,7 @@
 
 
 
-#   — Persian Text Emotion Detection**
+#   — Persian Text Emotion Detection
 
 ###  **Objective**
 
